@@ -5,7 +5,7 @@
       <input type="text" name="" v-model='inputCode' placeholder="请输入验证码" />
     </div>
     <p :class="testSend == '验证成功'?'blue':'red'">{{testSend}}</p>
-    <button class='btn' @click='getCode'>验证</button>
+    <button class='btn' @click='getCode'>验证一下666</button>
   </div>
 </template>
 
